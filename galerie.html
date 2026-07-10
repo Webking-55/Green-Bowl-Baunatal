@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie · Green Bowl Baunatal</title>
+  <meta name="description" content="Impressionen aus dem Green Bowl in Baunatal – frische Bowls, Salate, Smoothies und mehr in Bildern." />
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%97%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand" aria-label="Green Bowl Startseite">
+        <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="32" height="32" fill="none"><path d="M4 14h24a2 2 0 0 1 2 2c0 6.6-5.4 12-12 12H14C7.4 28 2 22.6 2 16a2 2 0 0 1 2-2Z" fill="currentColor"/><path d="M16 12c0-4 3-7 8-8-1 5-4 8-8 8Zm0 0c0-3.3-2.5-6-6-6.5C10.5 9 13 12 16 12Z" fill="#bbf7d0"/></svg></span>
+        <span class="brand__name">Green<span>Bowl</span></span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">Start</a>
+        <a href="speisekarte.html">Speisekarte</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="galerie.html" class="is-active">Galerie</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="tel:056173979787" class="btn btn--primary btn--sm nav__cta">Jetzt bestellen</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="pagehead">
+      <div class="pagehead__bg" aria-hidden="true"><span class="blob blob--1"></span><span class="blob blob--2"></span></div>
+      <div class="container pagehead__inner reveal">
+        <p class="crumbs"><a href="index.html">Start</a> › <span>Galerie</span></p>
+        <h1>Unsere <span class="hl">Galerie</span></h1>
+        <p>Sieht gut aus, schmeckt noch besser. Ein paar Eindrücke von dem, was dich bei Green Bowl erwartet.</p>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <div class="container">
+        <div class="gallery__grid">
+          <figure class="gallery__item gallery__item--wide reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=760&q=80" alt="Green Bowl mit Gemüse" /></figure>
+          <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=500&q=80" alt="Salmon Poke Bowl" /></figure>
+          <figure class="gallery__item gallery__item--tall reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=500&q=80" alt="Avocado Bowl" /></figure>
+          <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80" alt="Bunte Bowl" /></figure>
+          <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=500&q=80" alt="Smoothies" /></figure>
+          <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1512852939750-1305098529bf?auto=format&fit=crop&w=500&q=80" alt="Buddha Bowl" /></figure>
+          <figure class="gallery__item gallery__item--tall reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=500&q=80" alt="Frischer Salat" /></figure>
+          <figure class="gallery__item gallery__item--wide reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=760&q=80" alt="Shrimp Bowl" /></figure>
+          <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=500&q=80" alt="Zutaten" /></figure>
+          <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=500&q=80" alt="Green Smoothie" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta reveal">
+      <div class="container cta__inner">
+        <h2>Hunger bekommen?</h2>
+        <p>Sieh dir die ganze Auswahl an – oder bestell direkt.</p>
+        <a href="speisekarte.html" class="btn btn--white">Zur Speisekarte →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="index.html" class="brand brand--light"><span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="28" height="28" fill="none"><path d="M4 14h24a2 2 0 0 1 2 2c0 6.6-5.4 12-12 12H14C7.4 28 2 22.6 2 16a2 2 0 0 1 2-2Z" fill="currentColor"/><path d="M16 12c0-4 3-7 8-8-1 5-4 8-8 8Zm0 0c0-3.3-2.5-6-6-6.5C10.5 9 13 12 16 12Z" fill="#bbf7d0"/></svg></span><span class="brand__name">Green<span>Bowl</span></span></a>
+        <p class="footer__tag">Frische Bowls, Salate & Smoothies aus Baunatal.</p>
+      </div>
+      <div><h4>Seiten</h4><a href="speisekarte.html">Speisekarte</a><a href="ueber-uns.html">Über uns</a><a href="galerie.html">Galerie</a><a href="kontakt.html">Kontakt</a></div>
+      <div><h4>Kontakt</h4><a href="tel:056173979787">0561 73979787</a><span>Marktplatz 3, Glaspassage</span><span>34225 Baunatal</span></div>
+      <div><h4>Öffnungszeiten</h4><span>Mo, Mi–So: ab 11:00 Uhr</span><span>Dienstag: Ruhetag</span></div>
+    </div>
+    <div class="container footer__bottom"><span>© <span id="year"></span> Green Bowl Baunatal · Mit 💚 gemacht</span><span>Frisch · Grün · Gesund</span></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

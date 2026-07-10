@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt · Green Bowl Baunatal</title>
+  <meta name="description" content="Kontakt, Öffnungszeiten und Anfahrt zum Green Bowl in Baunatal: Marktplatz 3, Glaspassage, 34225 Baunatal. Telefon 0561 73979787." />
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%97%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand" aria-label="Green Bowl Startseite">
+        <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="32" height="32" fill="none"><path d="M4 14h24a2 2 0 0 1 2 2c0 6.6-5.4 12-12 12H14C7.4 28 2 22.6 2 16a2 2 0 0 1 2-2Z" fill="currentColor"/><path d="M16 12c0-4 3-7 8-8-1 5-4 8-8 8Zm0 0c0-3.3-2.5-6-6-6.5C10.5 9 13 12 16 12Z" fill="#bbf7d0"/></svg></span>
+        <span class="brand__name">Green<span>Bowl</span></span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">Start</a>
+        <a href="speisekarte.html">Speisekarte</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="kontakt.html" class="is-active">Kontakt</a>
+        <a href="tel:056173979787" class="btn btn--primary btn--sm nav__cta">Jetzt bestellen</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="pagehead">
+      <div class="pagehead__bg" aria-hidden="true"><span class="blob blob--1"></span><span class="blob blob--2"></span></div>
+      <div class="container pagehead__inner reveal">
+        <p class="crumbs"><a href="index.html">Start</a> › <span>Kontakt</span></p>
+        <h1>So findest du <span class="hl">uns</span></h1>
+        <p>Besuch uns in der Glaspassage, ruf an oder schreib uns – wir freuen uns auf dich.</p>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container contact__grid">
+        <div class="contact__info reveal">
+          <span class="eyebrow">Kontakt & Öffnungszeiten</span>
+          <h2 class="section__title">Green Bowl Baunatal</h2>
+          <ul class="contact__list">
+            <li><span class="contact__ic">📍</span><div><strong>Adresse</strong><br />Marktplatz 3 · Glaspassage<br />34225 Baunatal</div></li>
+            <li><span class="contact__ic">📞</span><div><strong>Telefon</strong><br /><a href="tel:056173979787">0561 73979787</a></div></li>
+            <li><span class="contact__ic">🕚</span><div><strong>Öffnungszeiten</strong>
+              <table class="hours"><tr><td>Mo, Mi – So</td><td>ab 11:00 Uhr</td></tr><tr class="hours__off"><td>Dienstag</td><td>Ruhetag</td></tr></table>
+            </div></li>
+          </ul>
+          <div class="contact__actions">
+            <a href="tel:056173979787" class="btn btn--primary">Jetzt anrufen</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Green+Bowl+Marktplatz+3+34225+Baunatal" target="_blank" rel="noopener" class="btn btn--ghost">Route planen</a>
+          </div>
+        </div>
+
+        <div class="contact__map reveal">
+          <iframe title="Standort Green Bowl Baunatal" src="https://www.openstreetmap.org/export/embed.html?bbox=9.40%2C51.24%2C9.44%2C51.27&layer=mapnik&marker=51.2537%2C9.4192" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Schreib uns</span>
+          <h2 class="section__title">Frage, Feedback oder Bestellung?</h2>
+          <p class="section__sub">Füll das Formular aus – wir melden uns schnellstmöglich zurück.</p>
+        </div>
+        <div style="max-width:720px;margin-inline:auto">
+          <form class="form reveal" action="mailto:info@green-bowl-baunatal.de" method="post" enctype="text/plain">
+            <div class="form__row">
+              <div class="field"><label for="name">Name</label><input id="name" name="Name" type="text" placeholder="Dein Name" required /></div>
+              <div class="field"><label for="email">E-Mail</label><input id="email" name="E-Mail" type="email" placeholder="dein@email.de" required /></div>
+            </div>
+            <div class="form__row">
+              <div class="field"><label for="phone">Telefon (optional)</label><input id="phone" name="Telefon" type="tel" placeholder="0561 …" /></div>
+              <div class="field"><label for="topic">Anliegen</label>
+                <select id="topic" name="Anliegen">
+                  <option>Allgemeine Frage</option>
+                  <option>Bestellung / Lieferung</option>
+                  <option>Reservierung</option>
+                  <option>Feedback</option>
+                </select>
+              </div>
+            </div>
+            <div class="field"><label for="msg">Nachricht</label><textarea id="msg" name="Nachricht" placeholder="Wie können wir dir helfen?" required></textarea></div>
+            <button type="submit" class="btn btn--primary">Nachricht senden</button>
+            <p class="form__note">Hinweis: Das Formular öffnet dein E-Mail-Programm. Für eine schnelle Bestellung ruf uns am besten direkt unter <a href="tel:056173979787">0561 73979787</a> an.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="index.html" class="brand brand--light"><span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="28" height="28" fill="none"><path d="M4 14h24a2 2 0 0 1 2 2c0 6.6-5.4 12-12 12H14C7.4 28 2 22.6 2 16a2 2 0 0 1 2-2Z" fill="currentColor"/><path d="M16 12c0-4 3-7 8-8-1 5-4 8-8 8Zm0 0c0-3.3-2.5-6-6-6.5C10.5 9 13 12 16 12Z" fill="#bbf7d0"/></svg></span><span class="brand__name">Green<span>Bowl</span></span></a>
+        <p class="footer__tag">Frische Bowls, Salate & Smoothies aus Baunatal.</p>
+      </div>
+      <div><h4>Seiten</h4><a href="speisekarte.html">Speisekarte</a><a href="ueber-uns.html">Über uns</a><a href="galerie.html">Galerie</a><a href="kontakt.html">Kontakt</a></div>
+      <div><h4>Kontakt</h4><a href="tel:056173979787">0561 73979787</a><span>Marktplatz 3, Glaspassage</span><span>34225 Baunatal</span></div>
+      <div><h4>Öffnungszeiten</h4><span>Mo, Mi–So: ab 11:00 Uhr</span><span>Dienstag: Ruhetag</span></div>
+    </div>
+    <div class="container footer__bottom"><span>© <span id="year"></span> Green Bowl Baunatal · Mit 💚 gemacht</span><span>Frisch · Grün · Gesund</span></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

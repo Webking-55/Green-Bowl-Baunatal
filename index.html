@@ -5,22 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Green Bowl Baunatal · Frische Poke Bowls, Salate & Smoothies</title>
   <meta name="description" content="Green Bowl in Baunatal – frische, gesunde Poke Bowls, knackige Salate und cremige Smoothies. Täglich frisch zubereitet. Marktplatz 3, Glaspassage. Lieferung im Umkreis von 8 km." />
+  <script>document.documentElement.classList.add("js");</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <script>document.documentElement.classList.add("js");</script>
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%97%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
 
-  <!-- Progress bar -->
   <div class="scroll-progress" id="scrollProgress"></div>
 
   <!-- Navigation -->
   <header class="nav" id="nav">
     <div class="container nav__inner">
-      <a href="#top" class="brand" aria-label="Green Bowl Startseite">
+      <a href="index.html" class="brand" aria-label="Green Bowl Startseite">
         <span class="brand__mark" aria-hidden="true">
           <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
             <path d="M4 14h24a2 2 0 0 1 2 2c0 6.6-5.4 12-12 12H14C7.4 28 2 22.6 2 16a2 2 0 0 1 2-2Z" fill="currentColor"/>
@@ -29,16 +28,14 @@
         </span>
         <span class="brand__name">Green<span>Bowl</span></span>
       </a>
-
       <nav class="nav__links" id="navLinks">
-        <a href="#bowls">Bowls</a>
-        <a href="#build">Zusammenstellen</a>
-        <a href="#about">Über uns</a>
-        <a href="#gallery">Galerie</a>
-        <a href="#contact">Kontakt</a>
+        <a href="index.html" class="is-active">Start</a>
+        <a href="speisekarte.html">Speisekarte</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="kontakt.html">Kontakt</a>
         <a href="tel:056173979787" class="btn btn--primary btn--sm nav__cta">Jetzt bestellen</a>
       </nav>
-
       <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -57,20 +54,17 @@
         <span class="leaf leaf--2">🥑</span>
         <span class="leaf leaf--3">🍃</span>
       </div>
-
       <div class="container hero__inner">
         <div class="hero__content">
           <span class="eyebrow reveal">🥗 Frisch aus Baunatal</span>
-          <h1 class="hero__title reveal">
-            Frisch. Grün.<br /><span class="hl">Einfach gesund.</span>
-          </h1>
+          <h1 class="hero__title reveal">Frisch. Grün.<br /><span class="hl">Einfach gesund.</span></h1>
           <p class="hero__text reveal">
             Handgemachte Poke Bowls, knackige Salate und cremige Smoothies –
             täglich frisch zubereitet mit besten Zutaten. Stell dir deine
             Lieblingsbowl zusammen oder lass sie dir liefern.
           </p>
           <div class="hero__actions reveal">
-            <a href="#bowls" class="btn btn--primary">Bowls entdecken</a>
+            <a href="speisekarte.html" class="btn btn--primary">Speisekarte ansehen</a>
             <a href="tel:056173979787" class="btn btn--ghost">
               <span class="btn__dot"></span> Bestellen · 0561 73979787
             </a>
@@ -81,154 +75,52 @@
             <div><strong data-count="11">0</strong><span>Uhr täglich geöffnet</span></div>
           </div>
         </div>
-
         <div class="hero__media reveal">
           <div class="hero__ring" aria-hidden="true"></div>
           <img class="hero__bowl" data-parallax="0.06"
                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=760&q=80"
                alt="Frische Green Bowl mit Gemüse, Avocado und Protein" />
-          <div class="hero__badge hero__badge--1" data-parallax="0.12">
-            <span>🥑</span> 100% frisch
-          </div>
-          <div class="hero__badge hero__badge--2" data-parallax="0.1">
-            <span>⭐</span> Baunatals Bowl-Liebling
-          </div>
+          <div class="hero__badge hero__badge--1" data-parallax="0.12"><span>🥑</span> 100% frisch</div>
+          <div class="hero__badge hero__badge--2" data-parallax="0.1"><span>⭐</span> Baunatals Bowl-Liebling</div>
         </div>
       </div>
-
-      <a href="#usps" class="hero__scroll" aria-label="Weiter scrollen">
-        <span></span>
-      </a>
+      <a href="#usps" class="hero__scroll" aria-label="Weiter scrollen"><span></span></a>
     </section>
 
     <!-- USP strip -->
     <section class="usps" id="usps">
       <div class="container usps__grid">
-        <article class="usp reveal">
-          <div class="usp__icon">🌱</div>
-          <h3>Frische Zutaten</h3>
-          <p>Knackiges Gemüse & Toppings – jeden Tag frisch angeliefert.</p>
-        </article>
-        <article class="usp reveal">
-          <div class="usp__icon">👩‍🍳</div>
-          <h3>Frisch zubereitet</h3>
-          <p>Jede Bowl wird auf Bestellung von Hand für dich gemacht.</p>
-        </article>
-        <article class="usp reveal">
-          <div class="usp__icon">🚴</div>
-          <h3>Lieferung 8 km</h3>
-          <p>Wir liefern deine Bowl im Umkreis von 8 km rund um Baunatal.</p>
-        </article>
-        <article class="usp reveal">
-          <div class="usp__icon">🌿</div>
-          <h3>Veggie & Vegan</h3>
-          <p>Falafel, Tofu & jede Menge pflanzliche Optionen für alle.</p>
-        </article>
+        <article class="usp reveal"><div class="usp__icon">🌱</div><h3>Frische Zutaten</h3><p>Knackiges Gemüse & Toppings – jeden Tag frisch angeliefert.</p></article>
+        <article class="usp reveal"><div class="usp__icon">👩‍🍳</div><h3>Frisch zubereitet</h3><p>Jede Bowl wird auf Bestellung von Hand für dich gemacht.</p></article>
+        <article class="usp reveal"><div class="usp__icon">🚴</div><h3>Lieferung 8 km</h3><p>Wir liefern deine Bowl im Umkreis von 8 km rund um Baunatal.</p></article>
+        <article class="usp reveal"><div class="usp__icon">🌿</div><h3>Veggie & Vegan</h3><p>Falafel, Tofu & jede Menge pflanzliche Optionen für alle.</p></article>
       </div>
     </section>
 
-    <!-- Bowls / Menu -->
-    <section class="section" id="bowls">
+    <!-- Featured bowls -->
+    <section class="section section--tint">
       <div class="container">
         <div class="section__head reveal">
-          <span class="eyebrow">Unsere Bowls</span>
-          <h2 class="section__title">Für jeden Geschmack die richtige Bowl</h2>
-          <p class="section__sub">
-            Wähle deine Basis aus Reis oder Salat und kombiniere sie mit
-            deinem Lieblingsprotein und frischen Toppings.
-          </p>
+          <span class="eyebrow">Beliebte Bowls</span>
+          <h2 class="section__title">Unsere Lieblinge der Woche</h2>
+          <p class="section__sub">Ein kleiner Vorgeschmack – die ganze Auswahl findest du auf der Speisekarte.</p>
         </div>
-
         <div class="bowls__grid">
           <article class="card reveal">
-            <div class="card__media">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=640&q=80" alt="Salmon Poke Bowl" />
-              <span class="card__tag">Beliebt</span>
-            </div>
-            <div class="card__body">
-              <div class="card__row">
-                <h3>Salmon Poke</h3>
-                <span class="price">10,90 €</span>
-              </div>
-              <p>Frischer Lachs, Sushi-Reis, Edamame, Avocado, Gurke & Sesam-Dressing.</p>
-              <div class="chips"><span>🐟 Fisch</span><span>Protein+</span></div>
-            </div>
+            <div class="card__media"><img loading="lazy" src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=640&q=80" alt="Salmon Poke Bowl" /><span class="card__tag">Beliebt</span></div>
+            <div class="card__body"><div class="card__row"><h3>Salmon Poke</h3><span class="price">10,90 €</span></div><p>Frischer Lachs, Sushi-Reis, Edamame, Avocado, Gurke & Sesam-Dressing.</p><div class="chips"><span>🐟 Fisch</span><span>Protein+</span></div></div>
           </article>
-
           <article class="card reveal">
-            <div class="card__media">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=640&q=80" alt="Chicken Bowl" />
-              <span class="card__tag">Klassiker</span>
-            </div>
-            <div class="card__body">
-              <div class="card__row">
-                <h3>Chicken Teriyaki</h3>
-                <span class="price">9,90 €</span>
-              </div>
-              <p>Gegrilltes Hähnchen, Reis, Mais, Karotte, Rotkohl & Teriyaki.</p>
-              <div class="chips"><span>🍗 Chicken</span><span>High Protein</span></div>
-            </div>
+            <div class="card__media"><img loading="lazy" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=640&q=80" alt="Chicken Bowl" /><span class="card__tag">Klassiker</span></div>
+            <div class="card__body"><div class="card__row"><h3>Chicken Teriyaki</h3><span class="price">9,90 €</span></div><p>Gegrilltes Hähnchen, Reis, Mais, Karotte, Rotkohl & Teriyaki.</p><div class="chips"><span>🍗 Chicken</span><span>High Protein</span></div></div>
           </article>
-
           <article class="card reveal">
-            <div class="card__media">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1512852939750-1305098529bf?auto=format&fit=crop&w=640&q=80" alt="Falafel Bowl" />
-              <span class="card__tag">Vegan</span>
-            </div>
-            <div class="card__body">
-              <div class="card__row">
-                <h3>Falafel Green</h3>
-                <span class="price">8,90 €</span>
-              </div>
-              <p>Hausgemachte Falafel, Babyspinat, Hummus, Kichererbsen & Tahini.</p>
-              <div class="chips"><span>🌱 Vegan</span><span>Veggie</span></div>
-            </div>
+            <div class="card__media"><img loading="lazy" src="https://images.unsplash.com/photo-1512852939750-1305098529bf?auto=format&fit=crop&w=640&q=80" alt="Falafel Bowl" /><span class="card__tag">Vegan</span></div>
+            <div class="card__body"><div class="card__row"><h3>Falafel Green</h3><span class="price">8,90 €</span></div><p>Hausgemachte Falafel, Babyspinat, Hummus, Kichererbsen & Tahini.</p><div class="chips"><span>🌱 Vegan</span><span>Veggie</span></div></div>
           </article>
-
-          <article class="card reveal">
-            <div class="card__media">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=640&q=80" alt="Shrimp Bowl" />
-              <span class="card__tag">Frisch</span>
-            </div>
-            <div class="card__body">
-              <div class="card__row">
-                <h3>Shrimp Mango</h3>
-                <span class="price">11,50 €</span>
-              </div>
-              <p>Garnelen, Mango, Avocado, Reis, Frühlingszwiebeln & Limetten-Chili.</p>
-              <div class="chips"><span>🦐 Shrimp</span><span>Sweet &amp; Spicy</span></div>
-            </div>
-          </article>
-
-          <article class="card reveal">
-            <div class="card__media">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=640&q=80" alt="Veggie Bowl" />
-              <span class="card__tag">Leicht</span>
-            </div>
-            <div class="card__body">
-              <div class="card__row">
-                <h3>Garden Veggie</h3>
-                <span class="price">8,50 €</span>
-              </div>
-              <p>Avocado, Cherrytomaten, Gurke, Rucola, Quinoa & Kräuter-Joghurt.</p>
-              <div class="chips"><span>🥑 Veggie</span><span>&lt; 500 kcal</span></div>
-            </div>
-          </article>
-
-          <article class="card reveal">
-            <div class="card__media">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=640&q=80" alt="Green Smoothie" />
-              <span class="card__tag">Smoothie</span>
-            </div>
-            <div class="card__body">
-              <div class="card__row">
-                <h3>Green Power</h3>
-                <span class="price">5,90 €</span>
-              </div>
-              <p>Spinat, Apfel, Banane, Ingwer & Limette – dein grüner Frische-Kick.</p>
-              <div class="chips"><span>🥤 Smoothie</span><span>Vitamin-Boost</span></div>
-            </div>
-          </article>
+        </div>
+        <div class="section__cta reveal">
+          <a href="speisekarte.html" class="btn btn--primary">Ganze Speisekarte ansehen</a>
         </div>
       </div>
     </section>
@@ -239,78 +131,41 @@
         <div class="section__head section__head--light reveal">
           <span class="eyebrow eyebrow--light">In 4 Schritten</span>
           <h2 class="section__title">Bau dir deine perfekte Bowl</h2>
-          <p class="section__sub section__sub--light">
-            Deine Bowl, deine Regeln. So einfach geht's.
-          </p>
+          <p class="section__sub section__sub--light">Deine Bowl, deine Regeln. So einfach geht's.</p>
         </div>
-
         <div class="steps">
-          <article class="step reveal">
-            <span class="step__num">01</span>
-            <div class="step__emoji">🍚</div>
-            <h3>Basis wählen</h3>
-            <p>Sushi-Reis, Vollkornreis, Quinoa oder frischer Salat.</p>
-          </article>
-          <article class="step reveal">
-            <span class="step__num">02</span>
-            <div class="step__emoji">🍗</div>
-            <h3>Protein dazu</h3>
-            <p>Lachs, Hähnchen, Garnelen, Falafel oder Tofu.</p>
-          </article>
-          <article class="step reveal">
-            <span class="step__num">03</span>
-            <div class="step__emoji">🥕</div>
-            <h3>Toppings mixen</h3>
-            <p>Avocado, Edamame, Mango, Mais, Gurke & mehr.</p>
-          </article>
-          <article class="step reveal">
-            <span class="step__num">04</span>
-            <div class="step__emoji">🥢</div>
-            <h3>Sauce & los!</h3>
-            <p>Von Teriyaki bis Limetten-Chili – finish deine Bowl.</p>
-          </article>
+          <article class="step reveal"><span class="step__num">01</span><div class="step__emoji">🍚</div><h3>Basis wählen</h3><p>Sushi-Reis, Vollkornreis, Quinoa oder frischer Salat.</p></article>
+          <article class="step reveal"><span class="step__num">02</span><div class="step__emoji">🍗</div><h3>Protein dazu</h3><p>Lachs, Hähnchen, Garnelen, Falafel oder Tofu.</p></article>
+          <article class="step reveal"><span class="step__num">03</span><div class="step__emoji">🥕</div><h3>Toppings mixen</h3><p>Avocado, Edamame, Mango, Mais, Gurke & mehr.</p></article>
+          <article class="step reveal"><span class="step__num">04</span><div class="step__emoji">🥢</div><h3>Sauce & los!</h3><p>Von Teriyaki bis Limetten-Chili – finish deine Bowl.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section class="section about" id="about">
+    <!-- About teaser -->
+    <section class="section about">
       <div class="container about__grid">
         <div class="about__media reveal">
-          <img loading="lazy" class="about__img about__img--1"
-               src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=560&q=80"
-               alt="Frischer Salat" />
-          <img loading="lazy" class="about__img about__img--2"
-               src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=420&q=80"
-               alt="Zutaten Zubereitung" />
+          <img loading="lazy" class="about__img about__img--1" src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=560&q=80" alt="Frischer Salat" />
+          <img loading="lazy" class="about__img about__img--2" src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=420&q=80" alt="Zutaten Zubereitung" />
           <div class="about__sticker">seit 2023 in Baunatal</div>
         </div>
-
         <div class="about__content reveal">
           <span class="eyebrow">Über Green Bowl</span>
           <h2 class="section__title">Neu, trendy und gesund in der City</h2>
-          <p>
-            Mitten in Baunatal, in der Glaspassage am Marktplatz, servieren wir
-            dir das, worauf du wirklich Lust hast: ehrliches, frisches Essen,
-            das schmeckt und gut tut. Bei uns kommt nichts aus der Tüte – jede
-            Bowl wird frisch und mit Liebe für dich zubereitet.
-          </p>
-          <p>
-            Ob schnelle Mittagspause, gesunder Snack oder Smoothie zum Mitnehmen –
-            bei uns findest du immer die passende Bowl. Setz dich rein oder lass
-            dir alles bequem nach Hause liefern.
-          </p>
+          <p>Mitten in Baunatal, in der Glaspassage am Marktplatz, servieren wir dir ehrliches, frisches Essen, das schmeckt und gut tut. Bei uns kommt nichts aus der Tüte – jede Bowl wird frisch und mit Liebe für dich zubereitet.</p>
           <div class="about__stats">
             <div><strong data-count="20">0</strong><span>Sitzplätze innen</span></div>
             <div><strong data-count="20">0</strong><span>Plätze draußen</span></div>
             <div><strong data-count="8">0</strong><span>km Lieferradius</span></div>
           </div>
+          <p style="margin-top:24px"><a href="ueber-uns.html" class="linkarrow">Mehr über uns <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
         </div>
       </div>
     </section>
 
-    <!-- Gallery -->
-    <section class="section gallery" id="gallery">
+    <!-- Gallery teaser -->
+    <section class="section section--tint gallery">
       <div class="container">
         <div class="section__head reveal">
           <span class="eyebrow">Galerie</span>
@@ -324,6 +179,7 @@
           <figure class="gallery__item gallery__item--wide reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1512852939750-1305098529bf?auto=format&fit=crop&w=760&q=80" alt="Buddha Bowl" /></figure>
           <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=500&q=80" alt="Poke Bowl" /></figure>
         </div>
+        <div class="section__cta reveal"><a href="galerie.html" class="linkarrow">Zur ganzen Galerie <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
       </div>
     </section>
 
@@ -335,83 +191,21 @@
         <a href="tel:056173979787" class="btn btn--white">📞 0561 73979787</a>
       </div>
     </section>
-
-    <!-- Contact / Location -->
-    <section class="section contact" id="contact">
-      <div class="container contact__grid">
-        <div class="contact__info reveal">
-          <span class="eyebrow">Besuch uns</span>
-          <h2 class="section__title">Kontakt & Öffnungszeiten</h2>
-
-          <ul class="contact__list">
-            <li>
-              <span class="contact__ic">📍</span>
-              <div><strong>Adresse</strong><br />Marktplatz 3 · Glaspassage<br />34225 Baunatal</div>
-            </li>
-            <li>
-              <span class="contact__ic">📞</span>
-              <div><strong>Telefon</strong><br /><a href="tel:056173979787">0561 73979787</a></div>
-            </li>
-            <li>
-              <span class="contact__ic">🕚</span>
-              <div>
-                <strong>Öffnungszeiten</strong>
-                <table class="hours">
-                  <tr><td>Mo, Mi – So</td><td>ab 11:00 Uhr</td></tr>
-                  <tr class="hours__off"><td>Dienstag</td><td>Ruhetag</td></tr>
-                </table>
-              </div>
-            </li>
-          </ul>
-
-          <div class="contact__actions">
-            <a href="tel:056173979787" class="btn btn--primary">Jetzt bestellen</a>
-            <a href="https://www.google.com/maps/search/?api=1&query=Green+Bowl+Marktplatz+3+34225+Baunatal" target="_blank" rel="noopener" class="btn btn--ghost">Route planen</a>
-          </div>
-        </div>
-
-        <div class="contact__map reveal">
-          <iframe
-            title="Standort Green Bowl Baunatal"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=9.40%2C51.24%2C9.44%2C51.27&layer=mapnik&marker=51.2537%2C9.4192"
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
   </main>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer__grid">
       <div>
-        <a href="#top" class="brand brand--light">
-          <span class="brand__mark" aria-hidden="true">
-            <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
-              <path d="M4 14h24a2 2 0 0 1 2 2c0 6.6-5.4 12-12 12H14C7.4 28 2 22.6 2 16a2 2 0 0 1 2-2Z" fill="currentColor"/>
-              <path d="M16 12c0-4 3-7 8-8-1 5-4 8-8 8Zm0 0c0-3.3-2.5-6-6-6.5C10.5 9 13 12 16 12Z" fill="#bbf7d0"/>
-            </svg>
-          </span>
+        <a href="index.html" class="brand brand--light">
+          <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="28" height="28" fill="none"><path d="M4 14h24a2 2 0 0 1 2 2c0 6.6-5.4 12-12 12H14C7.4 28 2 22.6 2 16a2 2 0 0 1 2-2Z" fill="currentColor"/><path d="M16 12c0-4 3-7 8-8-1 5-4 8-8 8Zm0 0c0-3.3-2.5-6-6-6.5C10.5 9 13 12 16 12Z" fill="#bbf7d0"/></svg></span>
           <span class="brand__name">Green<span>Bowl</span></span>
         </a>
         <p class="footer__tag">Frische Bowls, Salate & Smoothies aus Baunatal.</p>
       </div>
-      <div>
-        <h4>Menü</h4>
-        <a href="#bowls">Bowls</a>
-        <a href="#build">Zusammenstellen</a>
-        <a href="#gallery">Galerie</a>
-      </div>
-      <div>
-        <h4>Kontakt</h4>
-        <a href="tel:056173979787">0561 73979787</a>
-        <span>Marktplatz 3, Glaspassage</span>
-        <span>34225 Baunatal</span>
-      </div>
-      <div>
-        <h4>Öffnungszeiten</h4>
-        <span>Mo, Mi–So: ab 11:00 Uhr</span>
-        <span>Dienstag: Ruhetag</span>
-      </div>
+      <div><h4>Seiten</h4><a href="speisekarte.html">Speisekarte</a><a href="ueber-uns.html">Über uns</a><a href="galerie.html">Galerie</a><a href="kontakt.html">Kontakt</a></div>
+      <div><h4>Kontakt</h4><a href="tel:056173979787">0561 73979787</a><span>Marktplatz 3, Glaspassage</span><span>34225 Baunatal</span></div>
+      <div><h4>Öffnungszeiten</h4><span>Mo, Mi–So: ab 11:00 Uhr</span><span>Dienstag: Ruhetag</span></div>
     </div>
     <div class="container footer__bottom">
       <span>© <span id="year"></span> Green Bowl Baunatal · Mit 💚 gemacht</span>

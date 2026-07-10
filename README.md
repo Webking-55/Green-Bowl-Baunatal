@@ -1,6 +1,6 @@
 # Green Bowl Baunatal — Website
 
-Moderne, animierte One-Page-Website für **Green Bowl**, das Poke-Bowl-,
+Moderne, animierte **Multi-Page-Website** für **Green Bowl**, das Poke-Bowl-,
 Salat- und Smoothie-Restaurant in der Glaspassage am Marktplatz 3 in Baunatal.
 
 ## Highlights
@@ -8,16 +8,25 @@ Salat- und Smoothie-Restaurant in der Glaspassage am Marktplatz 3 in Baunatal.
 - **Design:** Frisches Grün-/Weiß-Farbschema (Organic-Biophilic-Stil)
 - **Animationen:** Scroll-Reveal, animierte Zähler, schwebende Elemente,
   Parallax im Hero, Hover-Effekte, Scroll-Fortschrittsbalken
-- **Sektionen:** Hero, Vorteile, Bowls-Menü, „Bowl selbst zusammenstellen“,
-  Über uns, Galerie, Call-to-Action, Kontakt & Öffnungszeiten mit Karte
+- **Mehrere Seiten** mit gemeinsamem Header/Footer und aktivem Menü-Zustand
 - **Responsive** für Mobil, Tablet und Desktop
 - **Zugänglich:** WCAG-orientierte Kontraste, `prefers-reduced-motion`-Support,
   funktioniert auch ohne JavaScript
 
+## Seiten
+
+| Datei | Inhalt |
+|-------|--------|
+| `index.html`      | Startseite: Hero, Vorteile, beliebte Bowls, Bowl-Baukasten, Über-uns- & Galerie-Teaser |
+| `speisekarte.html`| Volle Speisekarte (Signature Bowls, Vegan & Veggie, Smoothies & Extras) + Bowl-Baukasten |
+| `ueber-uns.html`  | Geschichte, Werte und Zahlen zum Restaurant |
+| `galerie.html`    | Bildergalerie mit Hover-Effekten |
+| `kontakt.html`    | Adresse, Öffnungszeiten, Karte und Kontaktformular |
+
 ## Struktur
 
 ```
-index.html            # Seiteninhalt
+index.html · speisekarte.html · ueber-uns.html · galerie.html · kontakt.html
 assets/css/styles.css # Styles & Animationen
 assets/js/main.js     # Scroll-Reveal, Zähler, Mobile-Menü, Parallax
 ```

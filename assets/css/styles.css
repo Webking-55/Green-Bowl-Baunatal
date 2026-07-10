@@ -399,6 +399,23 @@ a { color: inherit; text-decoration: none; }
 .field textarea { resize: vertical; min-height: 130px; }
 .form__note { font-size: .85rem; color: var(--muted); }
 
+/* ---------- Legal / prose ---------- */
+.prose { max-width: 760px; margin-inline: auto; }
+.prose h2 { font-family: var(--font-head); font-size: 1.5rem; color: var(--green-800); margin: 38px 0 12px; }
+.prose h3 { font-family: var(--font-head); font-size: 1.15rem; color: var(--green-900); margin: 22px 0 8px; }
+.prose p, .prose li { color: var(--muted); margin-bottom: 12px; }
+.prose ul { padding-left: 22px; margin-bottom: 12px; }
+.prose a { color: var(--green-700); font-weight: 500; text-decoration: underline; }
+.prose strong { color: var(--ink); }
+.prose .note {
+  background: var(--green-50); border: 1px solid var(--green-100);
+  border-left: 4px solid var(--green-500); border-radius: 12px;
+  padding: 16px 18px; margin: 22px 0; color: var(--green-900); font-size: .95rem;
+}
+.footer__legal a { color: #8fc2a8; }
+.footer__legal a:hover { color: var(--green-400); }
+.footer__legal a + a { margin-left: 18px; }
+
 /* ---------- Reveal animation ---------- */
 /* Only hide when JS is active (html.js); without JS everything stays visible. */
 .js .reveal { opacity: 0; transform: translateY(34px); transition: opacity .7s var(--ease), transform .7s var(--ease); }

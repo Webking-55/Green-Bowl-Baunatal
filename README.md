@@ -22,6 +22,12 @@ Salat- und Smoothie-Restaurant in der Glaspassage am Marktplatz 3 in Baunatal.
 | `ueber-uns.html`  | Geschichte, Werte und Zahlen zum Restaurant |
 | `galerie.html`    | Bildergalerie mit Hover-Effekten |
 | `kontakt.html`    | Adresse, Öffnungszeiten, Karte und Kontaktformular |
+| `impressum.html`  | Impressum (Pflichtangaben nach § 5 DDG) – Platzhalter ausfüllen |
+| `datenschutz.html`| Datenschutzerklärung (DSGVO) inkl. Hinweise zu Google Fonts, OpenStreetMap & Unsplash |
+
+> **Rechtlicher Hinweis:** `impressum.html` und `datenschutz.html` sind Vorlagen mit
+> `[…]`-Platzhaltern. Bitte mit den echten Unternehmensdaten füllen und im Zweifel
+> rechtlich prüfen lassen, bevor die Seite online geht.
 
 ## Struktur
 
